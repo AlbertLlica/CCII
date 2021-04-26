@@ -29,7 +29,7 @@ bool primo (int n){
 
 int main()
 {   
-    int num =10;
+    int num =200000;
     int resultado =0;
     
     for(int i=2; i<num; i++){

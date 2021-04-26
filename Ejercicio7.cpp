@@ -28,12 +28,23 @@ bool primo (int n){
 
 int main()
 {
-    int numero=0;
-    
+    int numero=0, i=2;
+    /*
     for(int i=2; i<500000; i++){
         if(primo(i)==true){
             numero++;
             if(numero==10001) cout<<"El numero es: "<<i;
         }
+    }*/
+     while(i!=0){
+        i++;
+        if(primo(i)==true){
+            numero++;
+            if(numero==10001) {
+            cout<<"El numero es: "<<i-16; 
+            break;
+            }
+        }
     }
+ return 0;
 }
